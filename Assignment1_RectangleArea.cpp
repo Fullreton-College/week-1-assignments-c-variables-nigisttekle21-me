@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+
 	// print name of program
 	cout << "Rectangle Calculator" << endl << endl;
 
@@ -11,11 +12,11 @@ int main()
 	double height;
 	double width;
 	cout << "Enter height and width: ";
-/* write your code here */
+ cin>> height >> width; // read input
 	// calculate area
 	
 
-	// write output to console
+	double area = height * width;
 	
 
 	// return value that indicates normal program exit
